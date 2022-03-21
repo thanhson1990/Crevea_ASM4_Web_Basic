@@ -1,0 +1,288 @@
+@media only screen and (max-width:767px) {
+    .header-tablet-desktop {
+        display: none;
+    }
+    .header-mobile {
+        height: 20px;
+    }
+    /* thanh chứa Menu dạng mobile và Tên Cty và nút Search */
+    .btn-menu {
+        position: relative;
+        width: fit-content;
+        padding: 0% 0% 0% 0%;
+        margin-top: 1%;
+    }
+    /* DIV chua button */
+    .menu-content {
+        display: none;
+        position: absolute;
+        width: 150px;
+        z-index: 1;
+    }
+    /* Khi rê chuột qua Div chứa Button sẽ xuất hiện Menu bên dưới  */
+    .btn-menu button {
+        width: inherit;
+        height: 100%;
+        border: unset;
+    }
+    .btn-menu:hover .menu-content {
+        display: block;
+        background-color: lightgrey;
+    }
+    /* Style cho button trong DIV*/
+    .brand-name {
+        padding: 0% 0% 0% 0%;
+        font-family: 'Cabin';
+    }
+    .brand-name header {
+        margin-top: 5px;
+        font-size: 22px;
+        font-weight: bold;
+    }
+    /* Style cho tên Cty ( brand name ) */
+    /* Nội dung Menu   */
+    .menu-content ul {
+        list-style-type: none;
+        font-family: 'Cabin';
+        background-color: lightblue;
+        font-weight: bold;
+        padding: 0% 0% 0% 10%;
+        margin: 0% 0% 0% 0%;
+    }
+    /* Style cho UL( UnOder list)   */
+    .menu-content ul li {
+        background-color: lightskyblue;
+        color: lavender;
+    }
+    /* Style cho nut Home được mặc định chọn khi truy cập web*/
+    .menu-content .a-hover:hover {
+        background-color: lightcoral;
+        color: white;
+    }
+    /* Style cho thẻ A trên Menu khi re chuột qua  */
+    .search-icon {
+        padding: 0px 0px 0px 0px;
+    }
+    .search-icon {
+        width: 50%;
+        height: 100%;
+        margin-top: 2vw;
+    }
+    .banner {
+        padding: 1px 0px 0px 0px;
+    }
+    /* --------------------------------------------------------------------*/
+    .about-us-margin-top,
+    .head-new-margin-top {
+        margin-top: 40px;
+    }
+    .business-margin-top,
+    .contact-magin-top,
+    .f-margin {
+        margin-top: 100px;
+    }
+    .about-us-content>h3 {
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .content-3 {
+        font-size: 20px;
+    }
+    .frame-pic-2 {
+        position: relative;
+    }
+    .tablet {
+        display: none;
+    }
+    .small-mobile {
+        font-size: 20px;
+    }
+    .content-business {
+        position: absolute;
+        top: 0px;
+        left: 90px;
+        font-size: 2vw;
+        color: white;
+        width: 80%;
+    }
+    .content-business>h4 {
+        height: 70%;
+        font-size: 25px;
+        margin: 5px 0px 5px 0px;
+    }
+    .content-business>p {
+        font-size: 4vw;
+    }
+    .handshake-icon {
+        position: absolute;
+        width: 55px;
+        height: 55px;
+        top: 40px;
+        left: 15px;
+        border-radius: 55px;
+    }
+    .book-icon {
+        position: absolute;
+        width: 80px;
+        height: 60px;
+        top: 120px;
+        left: 5px;
+        border-radius: 65px;
+    }
+    .news-p {
+        margin-left: 3px;
+        font-family: 'Cabin';
+        font-size: 20px;
+    }
+    .latest-news {
+        margin-left: 0px;
+    }
+    .contact {
+        margin-left: 0px;
+    }
+    .latest-news,
+    .contact-content {
+        font-weight: bold;
+        font-family: 'Cabin';
+    }
+    .news-pic div {
+        border: black 1px solid;
+        margin: 3% 0% 3% 0%;
+    }
+    .news-pic div p {
+        margin: 3% 3% 3% 3%;
+        font-family: 'Cabin';
+        font-size: 20px;
+    }
+    .news-pic div h3 {
+        margin: 3% 3% 3% 3%;
+        font-weight: bold;
+        font-family: 'Cabin';
+    }
+    .news-pic img {
+        width: 100%;
+        height: 100%;
+    }
+    /*------------------Contact-----------------*/
+    .form {
+        margin-bottom: 1%;
+        width: 100%;
+    }
+    .form input {
+        display: block;
+        width: 100%;
+        border: gray 1px solid;
+        border-radius: 6px;
+        margin: 4% 0% 4% 0%;
+        height: 30px;
+    }
+    .form textarea {
+        width: 100%;
+        margin: 4% 0% 1% 0%;
+        border-radius: 4px;
+    }
+    .button-send {
+        padding-left: 35%;
+    }
+    .btn-relative {
+        position: relative;
+    }
+    .map {
+        margin: 5% 0% 0% 0%;
+        padding: 0px 0px 0px 0px;
+    }
+    /*-----------------FOOTER---------------------------------- */
+    .a-color-footer {
+        color: white !important;
+    }
+    .f-background * {
+        font-size: 5vw;
+    }
+    .f-background {
+        color: white;
+        background-color: black;
+        font-family: 'Cabin';
+    }
+    .form-f {
+        position: relative;
+    }
+    .i-text {
+        background-color: black;
+        border-radius: 40px;
+        border: none;
+        border-bottom: 1px white solid;
+        width: 100%;
+    }
+    .i-submit {
+        color: black;
+        font-size: 2vw;
+        width: 15%;
+        position: absolute;
+        left: 84%;
+        bottom: 3px;
+        padding: 2px 0px 1px 2px;
+    }
+    .justify-f {
+        height: inherit;
+        width: 100%;
+    }
+    .justify-f ul {
+        list-style-type: none;
+        padding-left: 0px;
+    }
+    .copy-right {
+        background-color: black;
+    }
+    .copy-right p {
+        margin: 1px 0px 1px 0px;
+        font-size: 1em;
+        color: white;
+    }
+}
+
+* {
+    font-family: 'Cabin';
+}
+
+
+/*
+@media only screen and (max-width:576px) {
+    .mobile {
+        display: none;
+    }
+    .about-us-content .content-3 {
+        margin-left: 0px;
+        font-size: 4vw;
+    }
+    .about-us-content>h3 {
+        font-size: 5vw;
+        font-weight: bold;
+    }
+    .content-business {
+        position: absolute;
+        top: 0px;
+        left: 55px;
+        font-size: 2vw;
+        color: white;
+    }
+    .content-business>div>p {
+        font-size: 14px;
+    }
+    .handshake-icon {
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 40px;
+        left: 10px;
+        border-radius: 55px;
+    }
+    .book-icon {
+        position: absolute;
+        width: 40px;
+        height: 30px;
+        top: 110px;
+        left: 5px;
+        border-radius: 65px;
+    }
+}
+*/

@@ -1,0 +1,112 @@
+@media screen and (min-width:992px) {
+    /* ---------------------------------------Menu - Header */
+    .header-mobile {
+        display: none;
+    }
+    .header-tablet-desktop {
+        height: 60px;
+    }
+    .company-name,
+    .menu {
+        height: 100%;
+        background-color: dodgerblue;
+    }
+    .company-name header {
+        margin: 15px 0vw 25px 0vw;
+        text-align: center;
+        font-size: 1.5vw;
+    }
+    .menu ul {
+        margin: 17px 0vw 28px 11vw;
+        width: inherit;
+        height: 100%;
+    }
+    .menu ul li {
+        display: inline-block;
+        padding: 0vh 0vw 0vh 0.5vw;
+    }
+    .company-name,
+    .menu ul li a {
+        color: white;
+        font-weight: bold;
+        font-size: 1.1vw;
+        font-family: 'Cabin';
+    }
+    .banner {
+        padding: 0px 0px 0px 0px;
+    }
+    /*----------------------------------------------------- */
+    .headding {
+        margin: 2% 0% 2% 0%;
+    }
+    .headding>h1,
+    .headding>header>h1 {
+        width: inherit;
+        text-align: center;
+        font-family: 'Cabin';
+        font-size: 2.8vw;
+        font-weight: bold;
+    }
+    .content-address {
+        margin: 10px 0px 10px 0px;
+    }
+    .CEO-name {
+        font-family: 'Cabin';
+        font-size: 17px;
+        font-weight: normal;
+        text-align: center;
+    }
+    .content-address,
+    .content-1,
+    .content-2 {
+        font-family: 'Cabin';
+        font-size: 18px;
+        font-weight: normal;
+    }
+    /* ---------------------FOOTER------------------------*/
+    .a-color-footer {
+        color: white !important;
+    }
+    .f-background * {
+        font-size: 1.2vw;
+    }
+    .f-background {
+        color: white;
+        background-color: black;
+        font-family: 'Cabin';
+    }
+    .form-f {
+        position: relative;
+        width: 100%;
+    }
+    .i-text {
+        background-color: black;
+        border-radius: 40px;
+        border: none;
+        border-bottom: 1px white solid;
+        width: 100%;
+    }
+    .i-submit {
+        color: black;
+        font-size: 0.7vw;
+        /* resizing font size */
+        width: 30%;
+        position: absolute;
+        left: 66%;
+        bottom: 3px;
+        padding: 1px 1px 1px 1px;
+    }
+    .copy-right {
+        background-color: black;
+        color: white;
+    }
+    .copy-right p {
+        margin: 2px 0px 2px 0px;
+        font-size: 1.3em;
+        font-family: 'Cabin';
+    }
+}
+
+.active {
+    color: yellow !important;
+}

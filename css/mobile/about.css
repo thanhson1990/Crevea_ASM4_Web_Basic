@@ -1,0 +1,153 @@
+@media only screen and (max-width:767px) {
+    .header-tablet-desktop {
+        display: none;
+    }
+    .header-mobile {
+        height: 6vw;
+    }
+    /* thanh chứa Menu dạng mobile và Tên Cty và nút Search */
+    .btn-menu {
+        position: relative;
+        width: fit-content;
+        padding: 0% 0% 0% 0%;
+        margin-top: 1%;
+    }
+    /* DIV chua button */
+    .menu-content {
+        display: none;
+        position: absolute;
+        width: 150px;
+        z-index: 1;
+    }
+    /* Khi rê chuột qua Div chứa Button sẽ xuất hiện Menu bên dưới  */
+    .btn-menu button {
+        width: inherit;
+        height: 100%;
+        border: unset;
+    }
+    .btn-menu:hover .menu-content {
+        display: block;
+        background-color: lightgrey;
+    }
+    /* Style cho button trong DIV*/
+    .brand-name {
+        padding: 0% 0% 0% 0%;
+        font-family: 'Cabin';
+    }
+    .brand-name header {
+        height: 100%;
+        margin-top: 5px;
+        font-size: 25px;
+        color: blue;
+        font-weight: bold;
+    }
+    /* Style cho tên Cty ( brand name ) */
+    /* Nội dung Menu   */
+    .menu-content ul {
+        list-style-type: none;
+        font-family: 'Cabin';
+        background-color: lightblue;
+        font-weight: bold;
+        padding: 0% 0% 0% 10%;
+        margin: 0% 0% 0% 0%;
+    }
+    /* Style cho UL( UnOder list)   */
+    .menu-content ul li {
+        background-color: lightskyblue;
+        color: lavender;
+    }
+    /* Style cho nut Home được mặc định chọn khi truy cập web*/
+    .menu-content .a-hover:hover {
+        background-color: lightcoral;
+        color: white;
+    }
+    /* Style cho thẻ A trên Menu khi re chuột qua  */
+    .search-icon span {
+        width: 100%;
+        height: 100%;
+        margin-top: 2vw;
+        padding-left: 2vw;
+    }
+    .banner {
+        padding: 1px 0px 0px 0px;
+    }
+    /* --------------------------------------------------------------------*/
+    .headding {
+        margin: 3% 0% 3% 0%;
+    }
+    .headding>h1,
+    .headding>header>h1 {
+        width: inherit;
+        text-align: center;
+        font-family: 'Cabin';
+        font-size: 5vw;
+        font-weight: bold;
+    }
+    .content-address {
+        margin: 10px 0px 10px 0px;
+    }
+    .CEO-name {
+        font-family: 'Cabin';
+        font-size: 18px;
+        font-weight: normal;
+        text-align: center;
+    }
+    .content-address,
+    .content-1,
+    .content-2 {
+        font-family: 'Cabin';
+        font-size: 20px;
+        font-weight: normal;
+    }
+    /*-----------------FOOTER---------------------------------- */
+    .a-color-footer {
+        color: white !important;
+    }
+    .f-background * {
+        font-size: 5vw;
+    }
+    .f-background {
+        color: white;
+        background-color: black;
+        font-family: 'Cabin';
+    }
+    .form-f {
+        position: relative;
+    }
+    .i-text {
+        background-color: black;
+        border-radius: 40px;
+        border: none;
+        border-bottom: 1px white solid;
+        width: 100%;
+    }
+    .i-submit {
+        color: black;
+        font-size: 2vw;
+        width: 15%;
+        position: absolute;
+        left: 84%;
+        bottom: 3px;
+        padding: 2px 0px 1px 2px;
+    }
+    .justify-f {
+        height: inherit;
+        width: 100%;
+    }
+    .justify-f ul {
+        list-style-type: none;
+        padding-left: 0px;
+    }
+    .copy-right {
+        background-color: black;
+    }
+    .copy-right p {
+        margin: 1px 0px 1px 0px;
+        font-size: 1em;
+        color: white;
+    }
+}
+
+* {
+    font-family: 'Cabin';
+}

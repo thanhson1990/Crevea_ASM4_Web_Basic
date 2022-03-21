@@ -1,0 +1,195 @@
+@media screen and (min-width:768px) {
+    /* ---------------------------------------Menu - Header */
+    .header-mobile {
+        display: none;
+    }
+    .header-tablet-desktop {
+        height: 6vw;
+    }
+    .company-name,
+    .menu {
+        height: 100%;
+        background-color: dodgerblue;
+    }
+    .company-name header {
+        margin: 1vh 0vw 1vh 0vw;
+        text-align: center;
+        font-size: 3vw;
+    }
+    .menu ul {
+        margin: 1vh 0vw 1.2vh 8vw;
+        width: inherit;
+    }
+    .menu ul li {
+        display: inline-block;
+        padding: 0vh 0vw 0vh 0.5vw;
+    }
+    .menu ul li a {
+        color: white;
+        font-weight: bold;
+        font-size: 1.9vw;
+    }
+    .banner {
+        padding: 0px 0px 0px 0px;
+    }
+    /*----------------------------------------------------- */
+    .about-us-margin-top,
+    .head-new-margin-top {
+        margin-top: 40px;
+    }
+    .business-margin-top,
+    .contact-magin-top,
+    .f-margin-top {
+        margin-top: 100px;
+    }
+    .frame-pic-2 {
+        position: relative;
+    }
+    .small-mobile {
+        display: none;
+    }
+    .content-business {
+        position: absolute;
+        top: 50px;
+        left: 150px;
+        font-size: 1.8vw;
+        color: white;
+        width: 80%;
+    }
+    .content-business .tablet {
+        font-size: 40px;
+    }
+    .content-business>p {
+        font-size: 28px;
+    }
+    .handshake-icon {
+        position: absolute;
+        width: 65px;
+        height: 65px;
+        top: 90px;
+        left: 35px;
+        border-radius: 55px;
+    }
+    .book-icon {
+        position: absolute;
+        width: 90px;
+        height: 70px;
+        top: 200px;
+        left: 20px;
+        border-radius: 65px;
+    }
+    .news-p {
+        padding-left: 0px;
+    }
+    .latest-news {
+        margin-left: 0px;
+    }
+    .contact {
+        margin-left: 0px;
+    }
+    .latest-news,
+    .contact-content,
+    .about-us-content h3 {
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .about-us-content p {
+        font-size: 20px;
+    }
+    .news-pic>div {
+        border: black 1px solid;
+        margin: 3% 0% 3% 0%;
+    }
+    .news-pic>div>h3 {
+        font-weight: bold;
+    }
+    .news-pic div h3,
+    .news-pic div p {
+        margin: 3% 3% 3% 3%;
+        font-family: 'Cabin';
+    }
+    .news-pic>div>p {
+        font-size: 20px;
+    }
+    .news-pic>div>img {
+        width: 100%;
+        height: 100%;
+    }
+    /*------------------Contact-----------------*/
+    .contact-content {
+        font-family: 'Cabin';
+    }
+    .form {
+        margin-bottom: 1%;
+        width: 100%;
+    }
+    .form input {
+        display: block;
+        width: 100%;
+        border: gray 1px solid;
+        border-radius: 6px;
+        margin: 4% 0% 4% 0%;
+        height: 40px;
+    }
+    .form textarea {
+        width: 100%;
+        margin: 4% 0% 1% 0%;
+        border-radius: 4px;
+    }
+    .button-send {
+        padding-left: 35%;
+    }
+    .btn-relative {
+        position: relative;
+    }
+    .map {
+        margin: 5% 0% 0% 0%;
+    }
+    /*--------------------------------------FOOTER---------------------- */
+    .a-color-footer {
+        color: white !important;
+    }
+    .f-background * {
+        font-size: 3.5vw;
+    }
+    .f-background {
+        color: white;
+        background-color: black;
+        font-family: 'Cabin';
+    }
+    .form-f {
+        position: relative;
+        width: 100%;
+    }
+    .i-text {
+        background-color: black;
+        border-radius: 40px;
+        border: none;
+        border-bottom: 1px white solid;
+        width: 100%;
+    }
+    .i-submit {
+        color: black;
+        font-size: 1.7vw;
+        width: 15%;
+        position: absolute;
+        left: 84%;
+        bottom: 3px;
+    }
+    .justify-f ul {
+        list-style-type: none;
+        padding-left: 0px;
+    }
+    .copy-right {
+        background-color: black;
+    }
+    .copy-right p {
+        margin: 2px 0px 2px 0px;
+        font-size: 1.3em;
+        color: white;
+        font-family: 'Cabin';
+    }
+    * {
+        font-family: 'Cabin';
+    }
+}
